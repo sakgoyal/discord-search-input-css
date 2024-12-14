@@ -35,10 +35,8 @@ body {
   border-radius: 0.25em;
   padding: 0.375em;
   font-size: 0.875em;
-}
 
-@media (prefers-reduced-motion: reduce) {
-  .input {
+  @media (prefers-reduced-motion: reduce) {
     transition: none;
   }
 }
